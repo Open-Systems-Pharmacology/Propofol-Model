@@ -683,17 +683,17 @@
                 {
                     "Id": 31,
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1 Raltegravir final input parameters"
+                    "Title": "3.1 Propofol final input parameters"
                 },
                 {
                     "Id": 32,
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "3.2 Raltegravir Diagnostics Plots"
+                    "Title": "3.2 Propofol Diagnostics Plots"
                 },
                 {
                     "Id": 33,
                     "Content": "Content/Concentration_time_profiles.md",
-                    "Title": "3.3 Raltegravir Concentration-Time profiles"
+                    "Title": "3.3 Propofol Concentration-Time profiles"
                 }
             ]
         },

@@ -5,11 +5,16 @@ Whole-body pbpbk model of Propofol
   <img src="Propofol.png">
 </p>
 
-## Repository files
+This repository contains:
 
-Within this repository, we distribute a whole-body PBPK model of  Propofol, that has been developed using clinical studies in adults and evaluated for its predictive performance of UGT1A9 mediated clearance after intravenous administration in children. 
+- a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot)  of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-The PK-Sim project file contains simulations of all published clinical studies employed during model establishment [[1-2](#reference)] and for model predictions in pediatrics [[3-4](#reference)], including the respective observed data digitized.
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
 
 ## Code of conduct
 
@@ -22,17 +27,3 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 ## License
 
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
-
-## Reference
-
-[1] [https://www.ncbi.nlm.nih.gov/pubmed/17721240]()
-
-[2] [https://www.ncbi.nlm.nih.gov/pubmed/3500657 ]()
-
-[3] [https://www.ncbi.nlm.nih.gov/pubmed/9605675]()
-
-[4] [https://www.ncbi.nlm.nih.gov/pubmed/17897267]()
-
-[5] [https://www.ncbi.nlm.nih.gov/pubmed/8291699]()
-
-[6] [https://www.ncbi.nlm.nih.gov/pubmed/2611067]()

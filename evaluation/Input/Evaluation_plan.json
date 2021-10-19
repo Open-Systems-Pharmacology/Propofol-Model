@@ -1,0 +1,716 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Propofol",
+            "Path": "../../Propofol.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "Project": "Propofol",
+                "Simulation": "Gepts 1987 12mg_kg",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Gepts 1987 18mg_kg",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Gepts 1987 36mg_kg",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Gepts-1987 6mg_kg",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 1mg&25ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 1mg&50ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 2mg&25ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 2mg&50ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 2mg&100ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Schnider 1998 2mg&200ug",
+                "SectionId": 33
+            },
+            {
+                "Project": "Propofol",
+                "Simulation": "Struys 2007 Bolus Study",
+                "SectionId": 33
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma.",
+                "SectionId": 32,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Propofol continuous IV infusion",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts-1987 6mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 202 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts-1987 6mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 206 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts-1987 6mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 210 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts-1987 6mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 211 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts-1987 6mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 217 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 12mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 203 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 12mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 213 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 12mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 215 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 18mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 201 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 18mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 207 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 18mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 208 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 18mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 209 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Gepts 1987 36mg_kg",
+                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
+                                "ObservedData": "Gepts 1987 - ID 204 - Propofol - IV - 36 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Propofol bolus IV infusion",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID1 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID2 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID3 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID4 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID5 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID6 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID7 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID8 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID9 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Struys 2007 Bolus Study",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Struys 2007 - ID10 - Propofol - IV - 2.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Propofol bolus + continuous IV infusion",
+                        "Symbol": "Asterisk",
+                        "OutputMappings": [
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID5a - Propofol - IV - 1 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID5b - Propofol - IV - 1 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID6a - Propofol - IV - 1 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID6b - Propofol - IV - 1 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID11a - Propofol - IV - 1 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID11b - Propofol - IV - 1 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID12a - Propofol - IV - 1 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 1mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID12b - Propofol - IV - 1 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID2a - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID2b - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID3a - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID3b - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID4a - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&25ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID4b - Propofol - IV - 2 + 1.5 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID7a - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID7b - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID8a - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID8b - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID9a - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID9b - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID10a - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&50ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID10b - Propofol - IV - 2 + 3 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID13a - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID13b - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID14a - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID14b - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID15a - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID15b - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID16a - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&100ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID16b - Propofol - IV - 2 + 6 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID19a - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID19b - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID20a - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID20b - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID21a - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID21b - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID22a - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Propofol",
+                                "Simulation": "Schnider 1998 2mg&200ug",
+                                "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
+                                "ObservedData": "Schnider 1998 - ID22b - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Propofol",
+            "Name": "Propofol",
+            "Type": "Compound",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1 Raltegravir final input parameters"
+                },
+                {
+                    "Id": 32,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Raltegravir Diagnostics Plots"
+                },
+                {
+                    "Id": 33,
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3 Raltegravir Concentration-Time profiles"
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Title": "4 Conclusion",
+            "Content": "Content/Section4_Conclusion.md"
+        },
+        {
+            "Id": 5,
+            "Title": "5 References",
+            "Content": "Content/References.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}

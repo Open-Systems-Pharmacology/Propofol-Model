@@ -1,5 +1,5 @@
 # Propofol-Model
-Whole-body pbpbk model of Propofol
+Whole-body pbpk model of Propofol
 
 <p align="center">
   <img src="Propofol.png">

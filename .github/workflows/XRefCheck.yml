@@ -20,4 +20,4 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: serokell/xrefcheck-action@959c7cecf1b316023bfd204ae88642338f6bb91c
       with:
-        xrefcheck-args: --ignored evaluation
+        xrefcheck-args: --ignored evaluation --ignored README.md

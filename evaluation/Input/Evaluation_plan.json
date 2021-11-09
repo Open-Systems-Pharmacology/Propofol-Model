@@ -620,7 +620,7 @@
                                 "Project": "Propofol",
                                 "Simulation": "Schnider 1998 2mg&200ug",
                                 "Output": "Organism|ArterialBlood|Plasma|Propofol|Concentration in container",
-                                "ObservedData": "Schnider 1998 - ID22a - Propofol - IV - 2 + 12 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Schnider 1998 - ID22a - Propofol - IV - 2 + 12  mg/kg - Arterial Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {

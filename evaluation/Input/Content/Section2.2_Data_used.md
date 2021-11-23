@@ -9,10 +9,10 @@ A literature search was performed to collect available information on physicoche
 | Solubility (pH) | mg/L        | 124 (7) ([Drugbank.ca](#5-references))  | Solubility                                      |
 | logP (pH 7)     |             | 0.58 ([Moss 2012](#5-references))       | Partition coefficient between octanol and water |
 | fu              |             | 0.024 ([Takizawa 2005](#5-references))  | Fraction unbound                                |
-| Km UGT1A9       | mM          | 0.52 ([Al-Jahdari 2005](#5-references)) | Michaelis-Menten constant                       |
-| Vmax UGT1A9     | nmol/min/mg | 2.40 ([Al-Jahdari 2005](#5-references)) | Maximum rate of reaction                        |
-| Km CYP2B7       | mM          | 0.03 ([Al-Jahdari 2005](#5-references)) | Michaelis-Menten constant                       |
-| Vmax CYP2B7     | nmol/min/mg | 1.08 ([Al-Jahdari 2005](#5-references)) | Maximum rate of reaction                        |
+| Km,u UGT1A9     | mM          | 0.12 ([Al-Jahdari 2006](#5-references)) | Unbound Michaelis-Menten constant               |
+| Vmax UGT1A9     | nmol/min/mg | 2.40 ([Al-Jahdari 2006](#5-references)) | Maximum rate of reaction                        |
+| Km,u CYP2B7     | mM          | 0.03 ([Al-Jahdari 2006](#5-references)) | Unbound Michaelis-Menten constant               |
+| Vmax CYP2B7     | nmol/min/mg | 1.08 ([Al-Jahdari 2006](#5-references)) | Maximum rate of reaction                        |
 
 ### 2.2.2 Clinical data
 

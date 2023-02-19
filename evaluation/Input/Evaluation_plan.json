@@ -1,5 +1,5 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Propofol",
@@ -123,69 +123,69 @@
             {
                 "Project": "Propofol",
                 "Simulation": "Gepts 1987 12mg_kg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Gepts 1987 18mg_kg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Gepts 1987 36mg_kg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Gepts-1987 6mg_kg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 1mg&25ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 1mg&50ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 2mg&25ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 2mg&50ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 2mg&100ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Schnider 1998 2mg&200ug",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             },
             {
                 "Project": "Propofol",
                 "Simulation": "Struys 2007 Bolus Study",
-                "SectionId": 33
+                "SectionReference": "ct-profiles-model-building"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma.",
-                "SectionId": 32,
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
                 "Groups": [
                     {
                         "Caption": "Propofol continuous IV infusion",
@@ -195,91 +195,91 @@
                                 "Project": "Propofol",
                                 "Simulation": "Gepts-1987 6mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 202 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 202 - Propofol - IV - 6 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts-1987 6mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 206 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 206 - Propofol - IV - 6 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts-1987 6mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 210 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 210 - Propofol - IV - 6 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts-1987 6mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 211 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 211 - Propofol - IV - 6 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts-1987 6mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 217 - Propofol - IV - 6 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 217 - Propofol - IV - 6 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 12mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 203 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 203 - Propofol - IV - 12 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 12mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 213 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 213 - Propofol - IV - 12 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 12mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 215 - Propofol - IV - 12 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 215 - Propofol - IV - 12 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 18mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 201 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 201 - Propofol - IV - 18 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 18mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 207 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 207 - Propofol - IV - 18 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 18mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 208 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 208 - Propofol - IV - 18 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 18mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 209 - Propofol - IV - 18 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 209 - Propofol - IV - 18 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Propofol",
                                 "Simulation": "Gepts 1987 36mg_kg",
                                 "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "Gepts 1987 - ID 204 - Propofol - IV - 36 mg/kg - Arterial Plasma - indiv.",
+                                "ObservedData": "Gepts 1987 - ID 204 - Propofol - IV - 36 mg/kg - Whole Blood - indiv.",
                                 "Color": "#000000"
                             }
                         ]
@@ -644,67 +644,67 @@
             "Project": "Propofol",
             "Name": "Propofol",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
+                    "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
-                    "Title": "2.1 Modeling strategy"
+                    "Title": "Modeling strategy"
                 },
                 {
-                    "Id": 22,
+                    "Reference": "Data",
                     "Content": "Content/Section2.2_Data_used.md",
-                    "Title": "2.2 Data used"
+                    "Title": "Data used"
                 },
                 {
-                    "Id": 23,
+                    "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
-                    "Title": "2.3 Model parameters and assumptions"
+                    "Title": "Model parameters and assumptions"
                 }
             ]
         },
         {
-            "Id": 3,
+            "Reference": "results-and-discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
-            "Title": "3 Results and Discussion",
+            "Title": "Results and Discussion",
             "Sections": [
                 {
-                    "Id": 31,
+                    "Reference": "final-input-parameters",
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1 Propofol final input parameters"
+                    "Title": "Propofol final input parameters"
                 },
                 {
-                    "Id": 32,
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "3.2 Propofol Diagnostics Plots"
+                    "Title": "Propofol Diagnostics Plots"
                 },
                 {
-                    "Id": 33,
+                    "Reference": "ct-profiles-model-building",
                     "Content": "Content/Concentration_time_profiles.md",
-                    "Title": "3.3 Propofol Concentration-Time profiles"
+                    "Title": "Propofol Concentration-Time profiles"
                 }
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "references",
+            "Title": "References",
             "Content": "Content/References.md"
         }
     ],

@@ -1,9 +1,7 @@
 # Propofol-Model
 Whole-body pbpk model of Propofol
 
-<p align="center">
-  <img src="Propofol.png">
-</p>
+<a title="Harbin, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Propofol.svg"><img width="256" alt="Propofol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Propofol.svg/256px-Propofol.svg.png"></a>
 
 This repository contains:
 

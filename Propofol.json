@@ -1,5 +1,7 @@
 {
-  "Version": 80,
+  "Name": "Propofol",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -9,71 +11,88 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.00016153846154
+          "Value": 0.00016153846154,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|UGT1A9|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
+          "Value": 0.0982905983,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
+          "Value": 0.0982905983,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0017264957265
+          "Value": 0.0017264957265,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A9|Reference concentration",
@@ -88,12 +107,14 @@
         {
           "Path": "UGT1A9|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A9|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -110,65 +131,80 @@
         {
           "Path": "CYP2B6|Reference concentration",
           "Value": 1.56,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (liver)",
           "Value": 32.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
+          "Value": 0.0021211129296,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
+          "Value": 0.0063502454992,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.1043535188
+          "Value": 0.1043535188,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
+          "Value": 0.5970540098,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -401,17 +437,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 6.0,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -423,17 +462,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 2.5,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 10.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -445,17 +487,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 18.0,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -473,17 +518,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -492,16 +540,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -515,17 +566,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.5,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -541,7 +595,8 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
@@ -564,17 +619,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 12.0,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -586,17 +644,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 36.0,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -614,17 +675,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -633,16 +697,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -656,17 +723,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.5,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -682,12 +752,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -708,17 +780,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -727,16 +802,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -750,17 +828,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 3.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -776,12 +857,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -802,17 +885,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -821,16 +907,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -844,17 +933,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 3.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -870,12 +962,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -896,17 +990,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -915,16 +1012,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -938,17 +1038,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 6.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -964,12 +1067,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -990,17 +1095,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 20.0,
-                  "Unit": "s"
+                  "Unit": "s",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1009,16 +1117,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1032,17 +1143,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 12.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1058,12 +1172,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1087,7 +1203,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1110,9 +1227,10 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Infusion 2h 12mg_kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Infusion 2h 12mg_kg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1364,7 +1482,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1387,9 +1506,10 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Infusion 2h 18mg_kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Infusion 2h 18mg_kg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1665,7 +1785,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1688,9 +1809,10 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Infusion 4h 36mg_kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Infusion 4h 36mg_kg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1889,7 +2011,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1912,9 +2035,10 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Infusion 2h 6mg_kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Infusion 2h 6mg_kg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2220,7 +2344,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2271,14 +2396,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|1mg_kg&25ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1mg_kg&25ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|1mg_kg&25ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1mg_kg&25ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2553,7 +2680,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2604,14 +2732,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|1mg_kg&50ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1mg_kg&50ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|1mg_kg&50ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1mg_kg&50ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2890,7 +3020,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2941,14 +3072,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|2mg_kg&100ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&100ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|2mg_kg&100ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&100ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3335,7 +3468,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3386,14 +3520,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|2mg_kg&200ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&200ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|2mg_kg&200ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&200ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3778,7 +3914,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3829,14 +3966,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|2mg_kg&25ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&25ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|2mg_kg&25ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&25ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4169,7 +4308,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4220,14 +4360,16 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|2mg_kg&50ug_kg_min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&50ug_kg_min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "s"
+          "Unit": "s",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|2mg_kg&50ug_kg_min|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|2mg_kg&50ug_kg_min|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4616,7 +4758,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4639,9 +4782,10 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV Bolus 2.5mg_kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV Bolus 2.5mg_kg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 0.1666666667,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5185,18 +5329,18 @@
             2.18,
             2.67,
             1.98,
-            1.21999991,
-            0.969999969,
+            1.2199999,
+            0.96999997,
             0.88,
             0.8,
             0.59,
             0.38,
-            0.269999981,
+            0.26999998,
             0.24,
             0.2,
             0.12,
             0.084,
-            0.0830000043,
+            0.083000004,
             0.063,
             0.049,
             0.048
@@ -5216,12 +5360,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -5233,10 +5377,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -5403,12 +5547,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -5420,10 +5564,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -5554,7 +5698,7 @@
             2.08,
             2.28,
             2.67,
-            2.84999967,
+            2.8499997,
             2.99,
             3.19,
             3.39,
@@ -5590,12 +5734,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -5607,10 +5751,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -5737,7 +5881,7 @@
             1.62,
             2.13,
             4.11,
-            5.05000067,
+            5.0500007,
             5.18,
             4.47,
             4.29,
@@ -5753,7 +5897,7 @@
             1.78,
             1.16,
             0.78,
-            0.539999962,
+            0.53999996,
             0.32,
             0.3,
             0.19,
@@ -5777,12 +5921,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -5794,10 +5938,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -5924,15 +6068,15 @@
             1.48,
             1.83,
             2.39,
-            3.27999973,
+            3.2799997,
             3.21,
-            3.17000031,
+            3.1700003,
             3.06,
             2.13,
             3.63,
             4.17,
             4.62,
-            4.19000053,
+            4.1900005,
             3.18,
             2.65,
             2.02,
@@ -5964,12 +6108,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -5981,10 +6125,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -6106,7 +6250,7 @@
           },
           "Values": [
             1.23,
-            1.99000013,
+            1.9900001,
             2.41,
             2.8,
             2.83,
@@ -6149,12 +6293,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -6166,10 +6310,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -6288,7 +6432,7 @@
             "MolWeight": 178.27
           },
           "Values": [
-            0.819999933,
+            0.81999993,
             1.48,
             1.27,
             1.59,
@@ -6334,12 +6478,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -6351,10 +6495,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -6475,7 +6619,7 @@
             "MolWeight": 178.27
           },
           "Values": [
-            1.21999991,
+            1.2199999,
             1.78,
             2.37,
             2.64,
@@ -6494,7 +6638,7 @@
             5.91,
             4.57,
             4.3,
-            3.72999978,
+            3.7299998,
             3.57,
             2.46,
             1.6,
@@ -6523,12 +6667,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -6543,9 +6687,9 @@
           4.0666666,
           4.1,
           4.133333,
-          4.16666651,
-          4.33333349,
-          4.66666651,
+          4.1666665,
+          4.3333335,
+          4.6666665,
           5.0,
           5.5,
           6.0,
@@ -6685,7 +6829,7 @@
             0.76,
             0.53,
             0.51,
-            0.269999981,
+            0.26999998,
             0.23,
             0.15,
             0.12,
@@ -6712,12 +6856,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -6729,10 +6873,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -6857,12 +7001,12 @@
             0.47,
             0.51,
             0.66,
-            0.979999959,
+            0.97999996,
             1.01,
             1.05,
             0.88,
             1.23,
-            1.21999991,
+            1.2199999,
             0.137,
             1.39,
             1.05,
@@ -6901,8 +7045,8 @@
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -6914,10 +7058,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -7048,7 +7192,7 @@
             1.37,
             1.31,
             0.8,
-            1.21999991,
+            1.2199999,
             1.57,
             1.41,
             1.56,
@@ -7084,12 +7228,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -7101,10 +7245,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -7237,7 +7381,7 @@
             1.53,
             2.27,
             2.1,
-            2.15999985,
+            2.1599998,
             1.27,
             1.05,
             1.02,
@@ -7273,8 +7417,8 @@
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -7286,10 +7430,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -7434,7 +7578,7 @@
             0.2,
             0.14,
             0.11,
-            0.0830000043,
+            0.083000004,
             0.067,
             0.047,
             0.044,
@@ -7456,12 +7600,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.1,
           0.13333334,
-          0.166666672,
-          0.333333343,
+          0.16666667,
+          0.33333334,
           0.5,
           0.6666667,
           0.8333333,
@@ -7473,10 +7617,10 @@
           2.0333333,
           2.0666666,
           2.1,
-          2.13333344,
-          2.16666675,
-          2.33333325,
-          2.66666675,
+          2.1333334,
+          2.1666667,
+          2.3333333,
+          2.6666667,
           3.0,
           3.5,
           4.0,
@@ -7636,22 +7780,22 @@
         "Values": [
           0.0335,
           0.06716667,
-          0.135666668,
-          0.267499983,
+          0.13566667,
+          0.26749998,
           0.5005,
           0.9928333,
-          1.03416669,
-          1.06766665,
+          1.0341667,
+          1.0676666,
           1.1335,
-          1.26783335,
+          1.2678334,
           1.5,
-          1.99216664,
+          1.9921666,
           2.0333333,
           2.0666666,
-          2.13516665,
-          2.26666665,
-          2.50033331,
-          3.00166678,
+          2.1351666,
+          2.2666667,
+          2.5003333,
+          3.0016668,
           4.0041666,
           5.0,
           10.0
@@ -7767,7 +7911,7 @@
           },
           "Values": [
             3.21,
-            1.07999992,
+            1.0799999,
             0.438,
             0.183,
             0.105,
@@ -7806,22 +7950,22 @@
           0.0335,
           0.06716667,
           0.13350001,
-          0.266666681,
+          0.26666668,
           0.5,
-          0.993000031,
+          0.99300003,
           1.0333333,
-          1.06683338,
-          1.13316667,
-          1.26616669,
+          1.0668334,
+          1.1331667,
+          1.2661667,
           1.5,
-          1.99116671,
-          2.03383327,
-          2.06716657,
-          2.13349986,
+          1.9911667,
+          2.0338333,
+          2.0671666,
+          2.1334999,
           2.267,
-          2.50033331,
+          2.5003333,
           3.0,
-          3.99916673,
+          3.9991667,
           5.001167,
           9.875
         ],
@@ -7944,14 +8088,14 @@
             0.265,
             0.364,
             0.401,
-            0.494000018,
+            0.49400002,
             0.42,
             0.479,
             0.246,
             0.163,
             0.102,
             0.0758,
-            0.0622000024,
+            0.062200002,
             0.06,
             0.035,
             0.027,
@@ -7972,24 +8116,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.06666667,
-          0.139833346,
-          0.266666681,
-          0.501333356,
+          0.13983335,
+          0.26666668,
+          0.50133336,
           0.9913333,
           1.033,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26883328,
+          1.2688333,
           1.5275,
-          1.99133337,
+          1.9913334,
           2.0335,
           2.0666666,
-          2.13349986,
-          2.26666665,
-          2.49966669,
-          3.00133348,
+          2.1334999,
+          2.2666667,
+          2.4996667,
+          3.0013335,
           4.0,
           5.0,
           10.0
@@ -8114,7 +8258,7 @@
             0.306,
             0.43,
             0.47,
-            0.481000036,
+            0.48100004,
             0.483,
             0.2,
             0.131,
@@ -8148,15 +8292,15 @@
           0.5,
           0.9925,
           1.0333333,
-          1.06666672,
-          1.13316667,
+          1.0666667,
+          1.1331667,
           1.267,
-          1.49966669,
-          1.99133337,
+          1.4996667,
+          1.9913334,
           2.0333333,
-          2.06683326,
-          2.13349986,
-          2.26633334,
+          2.0668333,
+          2.1334999,
+          2.2663333,
           2.5,
           3.0,
           4.001167,
@@ -8310,24 +8454,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.0675,
-          0.133666679,
+          0.13366668,
           0.26700002,
-          0.501166642,
-          0.993833363,
+          0.50116664,
+          0.99383336,
           1.0335,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26783335,
+          1.2678334,
           1.5011667,
           1.9946667,
           2.033,
-          2.06683326,
-          2.13366675,
+          2.0668333,
+          2.1336668,
           2.2688334,
-          2.50083327,
-          3.00116682,
+          2.5008333,
+          3.0011668,
           4.0195,
           5.0,
           10.0
@@ -8444,7 +8588,7 @@
           "Values": [
             3.41,
             1.3,
-            0.494000018,
+            0.49400002,
             0.183,
             0.0984,
             0.0943,
@@ -8479,27 +8623,27 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0346666649,
+          0.034666665,
           0.06683334,
           0.134,
-          0.267166674,
-          0.500333369,
+          0.26716667,
+          0.50033337,
           0.9928333,
-          1.03416669,
-          1.06716669,
-          1.13533342,
-          1.26716661,
-          1.50216663,
+          1.0341667,
+          1.0671667,
+          1.1353334,
+          1.2671666,
+          1.5021666,
           1.993,
-          2.03383327,
+          2.0338333,
           2.0666666,
-          2.13366675,
+          2.1336668,
           2.267,
-          2.50133348,
-          3.00083327,
+          2.5013335,
+          3.0008333,
           4.0,
           5.002,
-          10.1416664
+          10.141666
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -8611,14 +8755,14 @@
             "MolWeight": 178.27
           },
           "Values": [
-            1.95999992,
+            1.9599999,
             0.827,
             0.384,
             0.164,
             0.09520001,
             0.0629,
             0.64,
-            0.895000041,
+            0.89500004,
             0.97299993,
             1.27,
             0.376,
@@ -8647,24 +8791,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06683334,
-          0.133166656,
-          0.266666681,
+          0.13316666,
+          0.26666668,
           0.5346667,
           0.9925,
-          1.03266668,
-          1.07333338,
-          1.13316667,
+          1.0326667,
+          1.0733334,
+          1.1331667,
           1.267,
-          1.49966669,
-          1.99216664,
+          1.4996667,
+          1.9921666,
           2.0335,
-          2.06683326,
-          2.26783347,
+          2.0668333,
+          2.2678335,
           2.4995,
-          3.00283337,
-          3.99966669,
+          3.0028334,
+          3.9996667,
           4.998833,
           10.041667
         ],
@@ -8785,7 +8929,7 @@
             0.0984,
             0.0581,
             0.791,
-            0.963000059,
+            0.96300006,
             1.17,
             1.28,
             1.32,
@@ -8796,7 +8940,7 @@
             0.212,
             0.14,
             0.118,
-            0.0619000047,
+            0.061900005,
             0.044,
             0.038
           ],
@@ -8815,23 +8959,23 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0346666649,
+          0.034666665,
           0.0675,
           0.134,
-          0.268333346,
-          0.502000034,
+          0.26833335,
+          0.50200003,
           0.9933333,
           1.0335,
-          1.06833327,
+          1.0683333,
           1.1335,
           1.267,
-          1.50033331,
-          1.99416673,
+          1.5003333,
+          1.9941667,
           2.0335,
           2.068,
-          2.13349986,
-          2.26666665,
-          2.50033331,
+          2.1334999,
+          2.2666667,
+          2.5003333,
           3.0,
           4.0005,
           5.001167,
@@ -8951,7 +9095,7 @@
             1.56,
             0.828,
             0.546,
-            0.478000015,
+            0.47800002,
             0.364,
             1.78,
             2.19,
@@ -8961,7 +9105,7 @@
             3.24,
             1.56,
             1.18,
-            0.971999943,
+            0.97199994,
             0.807,
             0.617,
             0.451,
@@ -8987,24 +9131,24 @@
           0.0335,
           0.06666667,
           0.134,
-          0.267833322,
-          0.500333369,
-          0.993666649,
+          0.26783332,
+          0.50033337,
+          0.99366665,
           1.0333333,
-          1.06666672,
-          1.13366663,
+          1.0666667,
+          1.1336666,
           1.267,
           1.5,
           1.9938333,
           2.0335,
           2.0666666,
-          2.13366675,
-          2.26666665,
-          2.50033331,
-          3.00199986,
+          2.1336668,
+          2.2666667,
+          2.5003333,
+          3.0019999,
           4.0,
           5.0,
-          10.0508327
+          10.050833
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -9117,7 +9261,7 @@
           },
           "Values": [
             3.15,
-            1.79000008,
+            1.7900001,
             0.85,
             0.525,
             0.343,
@@ -9153,26 +9297,26 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
-          0.0679999962,
-          0.133666679,
+          0.033333335,
+          0.067999996,
+          0.13366668,
           0.268,
           0.5005,
-          0.993000031,
-          1.03266668,
-          1.06833327,
-          1.13316667,
-          1.26633334,
-          1.50083339,
-          1.99449992,
+          0.99300003,
+          1.0326667,
+          1.0683333,
+          1.1331667,
+          1.2663333,
+          1.5008334,
+          1.9944999,
           2.0335,
-          2.06633329,
-          2.13349986,
-          2.26666665,
+          2.0663333,
+          2.1334999,
+          2.2666667,
           2.5,
-          3.00083327,
+          3.0008333,
           4.0,
-          5.00033331,
+          5.0003333,
           10.083333
         ],
         "Dimension": "Time",
@@ -9322,24 +9466,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06683334,
           0.13350001,
-          0.266666681,
-          0.501166642,
-          0.993000031,
+          0.26666668,
+          0.50116664,
+          0.99300003,
           1.0333333,
-          1.06683338,
-          1.13366663,
+          1.0668334,
+          1.1336666,
           1.2675,
-          1.50166667,
-          1.99333334,
+          1.5016667,
+          1.9933333,
           2.0333333,
           2.0666666,
-          2.13483334,
-          2.33633327,
-          2.50033331,
-          3.00216675,
+          2.1348333,
+          2.3363333,
+          2.5003333,
+          3.0021667,
           4.0,
           5.0,
           10.0
@@ -9456,7 +9600,7 @@
           "Values": [
             2.14,
             1.39,
-            0.895000041,
+            0.89500004,
             0.547,
             0.313,
             0.258,
@@ -9471,7 +9615,7 @@
             0.637,
             0.791,
             0.704,
-            0.490999967,
+            0.49099997,
             0.209,
             0.15,
             0.0953
@@ -9493,20 +9637,20 @@
         "Values": [
           0.0335,
           0.06666667,
-          0.133666679,
-          0.266666681,
+          0.13366668,
+          0.26666668,
           0.5,
-          0.993000031,
+          0.99300003,
           1.0333333,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26866674,
-          1.50333333,
-          1.99216664,
-          2.03383327,
+          1.2686667,
+          1.5033333,
+          1.9921666,
+          2.0338333,
           2.0666666,
-          2.13349986,
-          2.26666665,
+          2.1334999,
+          2.2666667,
           2.5,
           3.0041666,
           4.0,
@@ -9623,7 +9767,7 @@
             "MolWeight": 178.27
           },
           "Values": [
-            4.87999964,
+            4.8799996,
             1.98,
             0.714,
             0.18,
@@ -9633,7 +9777,7 @@
             1.4,
             1.68,
             1.9,
-            1.63999987,
+            1.6399999,
             1.74,
             0.606,
             0.597,
@@ -9642,7 +9786,7 @@
             0.217,
             0.179,
             0.0912,
-            0.0598000027,
+            0.059800003,
             0.039
           ],
           "Dimension": "Concentration (mass)",
@@ -9660,25 +9804,25 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.066,
-          0.134333342,
-          0.267166674,
-          0.499666661,
+          0.13433334,
+          0.26716667,
+          0.49966666,
           0.9941667,
           1.0335,
-          1.06666672,
+          1.0666667,
           1.1335,
-          1.26883328,
-          1.54933333,
-          1.99283338,
-          2.03383327,
+          1.2688333,
+          1.5493333,
+          1.9928334,
+          2.0338333,
           2.0666666,
-          2.13349986,
-          2.26633334,
+          2.1334999,
+          2.2663333,
           2.4995,
           3.0,
-          4.00216675,
+          4.0021667,
           5.0,
           10.0
         ],
@@ -9829,22 +9973,22 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.06683334,
           0.13350001,
-          0.267166674,
+          0.26716667,
           0.5005,
           0.9978333,
           1.0333333,
-          1.06716669,
-          1.13316667,
-          1.26716661,
+          1.0671667,
+          1.1331667,
+          1.2671666,
           1.5,
           1.9946667,
-          2.03266668,
+          2.0326667,
           2.0666666,
-          2.13283324,
-          2.26966643,
+          2.1328332,
+          2.2696664,
           2.5,
           3.0,
           4.0,
@@ -9968,7 +10112,7 @@
             0.213,
             0.141,
             1.9,
-            1.63999987,
+            1.6399999,
             2.21,
             2.36,
             2.46,
@@ -10000,25 +10144,25 @@
         "Values": [
           0.0335,
           0.06683334,
-          0.133666679,
+          0.13366668,
           0.26700002,
           0.5005,
           0.9925,
           1.033,
-          1.06683338,
-          1.13400006,
-          1.26783335,
+          1.0668334,
+          1.1340001,
+          1.2678334,
           1.5,
-          1.99216664,
-          2.03466678,
-          2.06683326,
+          1.9921666,
+          2.0346668,
+          2.0668333,
           2.1461668,
-          2.26533341,
-          2.50133348,
-          3.00133348,
+          2.2653334,
+          2.5013335,
+          3.0013335,
           4.0,
-          5.00716639,
-          10.1721668
+          5.0071664,
+          10.172167
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -10147,7 +10291,7 @@
             0.686,
             0.432,
             0.284,
-            0.177999988,
+            0.17799999,
             0.123,
             0.0826,
             0.046
@@ -10170,23 +10314,23 @@
           0.0335,
           0.06683334,
           0.13350001,
-          0.266666681,
+          0.26666668,
           0.5005,
-          0.993000031,
+          0.99300003,
           1.0333333,
-          1.06716669,
-          1.13366663,
-          1.26716661,
+          1.0671667,
+          1.1336666,
+          1.2671666,
           1.5,
           1.992,
-          2.03383327,
+          2.0338333,
           2.0666666,
-          2.13316655,
+          2.1331666,
           2.267,
-          2.50116682,
-          3.00333333,
-          4.00033331,
-          5.00166655,
+          2.5011668,
+          3.0033333,
+          4.0003333,
+          5.0016665,
           10.0945
         ],
         "Dimension": "Time",
@@ -10307,7 +10451,7 @@
             0.151,
             3.54,
             3.61,
-            4.40999937,
+            4.4099994,
             4.59,
             3.57,
             5.02,
@@ -10338,20 +10482,20 @@
         "Values": [
           0.0335,
           0.06666667,
-          0.133666679,
-          0.267166674,
+          0.13366668,
+          0.26716667,
           0.5005,
-          0.993666649,
+          0.99366665,
           1.0335,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26666665,
-          1.50133336,
-          1.99550009,
-          2.03383327,
+          1.2666667,
+          1.5013334,
+          1.9955001,
+          2.0338333,
           2.066,
-          2.13366675,
-          2.26666665,
+          2.1336668,
+          2.2666667,
           2.5,
           3.0,
           4.0,
@@ -10486,7 +10630,7 @@
             1.13,
             0.949,
             0.53,
-            0.280999959,
+            0.28099996,
             0.224,
             0.134
           ],
@@ -10507,22 +10651,22 @@
         "Values": [
           0.0335,
           0.06666667,
-          0.133666679,
+          0.13366668,
           0.26700002,
-          0.500333369,
+          0.50033337,
           0.9928333,
           1.0333333,
-          1.06666672,
+          1.0666667,
           1.1335,
           1.2675,
           1.5,
           1.9938333,
-          2.03416681,
+          2.0341668,
           2.0666666,
-          2.13349986,
+          2.1334999,
           2.267,
           2.5,
-          3.00133348,
+          3.0013335,
           4.0,
           5.0,
           10.0
@@ -10650,7 +10794,7 @@
             4.83,
             5.67,
             2.99,
-            1.99000013,
+            1.9900001,
             1.57,
             1.01,
             0.899,
@@ -10676,22 +10820,22 @@
         "Values": [
           0.0335,
           0.06916667,
-          0.136166662,
+          0.13616666,
           0.26700002,
-          0.500833333,
+          0.50083333,
           0.9933333,
           1.0335,
           1.0675,
-          1.13366663,
-          1.26716661,
+          1.1336666,
+          1.2671666,
           1.5005,
           1.9946667,
           2.0333333,
-          2.06716657,
-          2.14950013,
-          2.26666665,
-          2.50116682,
-          3.00199986,
+          2.0671666,
+          2.1495001,
+          2.2666667,
+          2.5011668,
+          3.0019999,
           4.0,
           5.0,
           10.0
@@ -10822,7 +10966,7 @@
             2.53,
             2.26,
             2.04,
-            0.987000048,
+            0.98700005,
             0.504,
             0.308,
             0.196,
@@ -10845,11 +10989,11 @@
         "Values": [
           0.0335,
           0.0675,
-          0.133166656,
+          0.13316666,
           0.26700002,
           0.5046667,
           0.99666667,
-          1.03383327,
+          1.0338333,
           1.0675,
           1.1335,
           1.2745,
@@ -10858,9 +11002,9 @@
           2.0335,
           2.0685,
           2.131,
-          2.27283335,
-          2.49916673,
-          3.00166678,
+          2.2728333,
+          2.4991667,
+          3.0016668,
           4.0,
           5.0,
           9.970834
@@ -10979,12 +11123,12 @@
             1.75,
             1.06,
             0.398,
-            0.204999983,
+            0.20499998,
             0.137,
             2.78,
             4.99,
             5.68,
-            5.69999933,
+            5.6999993,
             7.48,
             6.83,
             3.43,
@@ -11012,9 +11156,9 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0341666676,
+          0.034166668,
           0.066,
-          0.133666679,
+          0.13366668,
           0.2663333,
           0.5,
           0.9925,
@@ -11023,13 +11167,13 @@
           1.1335,
           1.2675,
           1.5,
-          1.99333334,
+          1.9933333,
           2.0335,
-          2.06716657,
-          2.13399982,
-          2.30416656,
-          2.50116682,
-          3.00583339,
+          2.0671666,
+          2.1339998,
+          2.3041666,
+          2.5011668,
+          3.0058334,
           4.003333,
           5.0,
           9.916667
@@ -11147,12 +11291,12 @@
             5.47,
             1.81,
             0.643,
-            0.280999959,
+            0.28099996,
             0.167,
             0.1,
             3.3,
             3.68,
-            4.40999937,
+            4.4099994,
             4.61,
             5.37,
             4.92,
@@ -11181,7 +11325,7 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.06666667,
           0.134,
           0.268,
@@ -11191,13 +11335,13 @@
           1.0675,
           1.1335,
           1.2675,
-          1.50033331,
-          1.99416673,
+          1.5003333,
+          1.9941667,
           2.033,
           2.0666666,
-          2.13349986,
-          2.26633334,
-          2.49966669,
+          2.1334999,
+          2.2663333,
+          2.4996667,
           3.0005,
           4.0,
           5.0,
@@ -11323,14 +11467,14 @@
             3.31,
             4.34,
             4.65,
-            4.40999937,
+            4.4099994,
             4.72,
             2.22,
             1.8,
             1.32,
             1.06,
             0.699,
-            0.484999985,
+            0.48499998,
             0.195,
             0.194,
             0.0576
@@ -11353,22 +11497,22 @@
           0.0335,
           0.06683334,
           0.134,
-          0.267166674,
-          0.500833333,
+          0.26716667,
+          0.50083333,
           0.9928333,
           1.0333333,
-          1.06666672,
-          1.13316667,
-          1.26716661,
+          1.0666667,
+          1.1331667,
+          1.2671666,
           1.5,
-          1.99250007,
-          2.03383327,
-          2.06683326,
-          2.13366675,
-          2.26716661,
-          2.49866652,
+          1.9925001,
+          2.0338333,
+          2.0668333,
+          2.1336668,
+          2.2671666,
+          2.4986665,
           3.0,
-          4.00166655,
+          4.0016665,
           5.0,
           10.0
         ],
@@ -11519,27 +11663,27 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0358333364,
-          0.0683333352,
-          0.135999992,
+          0.035833336,
+          0.068333335,
+          0.13599999,
           0.2695,
           0.5021666,
           0.997,
-          1.03383327,
-          1.06683338,
+          1.0338333,
+          1.0668334,
           1.1335,
-          1.26666665,
+          1.2666667,
           1.5,
-          1.99583328,
+          1.9958333,
           2.035,
           2.0666666,
-          2.13283324,
+          2.1328332,
           2.267,
           2.5,
           3.0,
           4.0,
           5.0,
-          10.0666666
+          10.066667
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -11651,7 +11795,7 @@
             "MolWeight": 178.27
           },
           "Values": [
-            5.05000067,
+            5.0500007,
             1.82,
             0.76,
             0.39,
@@ -11660,9 +11804,9 @@
             0.474,
             0.645,
             0.537,
-            0.980999947,
+            0.98099995,
             0.993,
-            0.964000046,
+            0.96400005,
             0.392,
             0.255,
             0.32,
@@ -11688,24 +11832,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
-          0.133666679,
+          0.13366668,
           0.26700002,
-          0.499666661,
+          0.49966666,
           0.9925,
           1.0333333,
-          1.06683338,
-          1.13283336,
-          1.26666665,
-          1.50083339,
-          1.99583328,
+          1.0668334,
+          1.1328334,
+          1.2666667,
+          1.5008334,
+          1.9958333,
           2.033,
-          2.06683326,
-          2.13333344,
-          2.26666665,
+          2.0668333,
+          2.1333334,
+          2.2666667,
           2.5,
-          3.00033331,
+          3.0003333,
           4.0,
           5.0,
           10.025
@@ -11832,7 +11976,7 @@
             0.639,
             0.763,
             0.785,
-            0.355999976,
+            0.35599998,
             0.275,
             0.252,
             0.165,
@@ -11857,23 +12001,23 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
-          0.133166656,
+          0.13316666,
           0.2663333,
           0.5,
           0.9941667,
           1.0335,
-          1.06683338,
+          1.0668334,
           1.1335,
           1.267,
           1.5,
-          1.99449992,
+          1.9944999,
           2.0333333,
           2.0666666,
-          2.13316655,
-          2.26716661,
-          2.50033331,
+          2.1331666,
+          2.2671666,
+          2.5003333,
           3.0055,
           4.0025,
           5.0,
@@ -11992,7 +12136,7 @@
             7.58,
             2.43,
             0.925,
-            0.490999967,
+            0.49099997,
             0.3,
             0.198,
             0.565,
@@ -12026,24 +12170,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
-          0.133666679,
-          0.266666681,
+          0.13366668,
+          0.26666668,
           0.5,
           0.9946667,
           1.0333333,
-          1.06716669,
+          1.0671667,
           1.1335,
-          1.27083337,
+          1.2708334,
           1.5,
-          1.99716675,
-          2.03433323,
-          2.06766653,
-          2.13766646,
-          2.26416683,
+          1.9971668,
+          2.0343332,
+          2.0676665,
+          2.1376665,
+          2.2641668,
           2.5041666,
-          3.00333333,
+          3.0033333,
           4.0,
           5.0666666,
           9.766666
@@ -12162,7 +12306,7 @@
             2.04,
             0.862,
             0.448,
-            0.269999981,
+            0.26999998,
             0.204,
             0.556,
             0.409,
@@ -12177,7 +12321,7 @@
             0.168,
             0.121,
             0.0866,
-            0.0610999949,
+            0.061099995,
             0.052
           ],
           "Dimension": "Concentration (mass)",
@@ -12195,22 +12339,22 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06683334,
           0.13350001,
           0.26700002,
           0.5,
           0.9941667,
           1.0333333,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26666665,
-          1.49966669,
-          1.99633336,
+          1.2666667,
+          1.4996667,
+          1.9963334,
           2.0333333,
-          2.06633329,
-          2.13349986,
-          2.26633334,
+          2.0663333,
+          2.1334999,
+          2.2663333,
           2.5,
           3.0005,
           4.0,
@@ -12329,12 +12473,12 @@
           "Values": [
             5.1,
             2.09,
-            0.971999943,
+            0.97199994,
             0.423,
             0.277,
             0.191,
             0.702,
-            0.793000042,
+            0.79300004,
             0.855,
             1.01,
             0.958,
@@ -12366,20 +12510,20 @@
         "Values": [
           0.0335,
           0.06716667,
-          0.133666679,
-          0.268333346,
-          0.500833333,
+          0.13366668,
+          0.26833335,
+          0.50083333,
           0.9953334,
           1.0333333,
-          1.06666672,
-          1.13566661,
-          1.26716661,
+          1.0666667,
+          1.1356666,
+          1.2671666,
           1.5,
           1.9975,
           2.0355,
           2.0666666,
-          2.13333344,
-          2.26666665,
+          2.1333334,
+          2.2666667,
           2.5,
           3.0,
           4.0375,
@@ -12533,23 +12677,23 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06666667,
           0.13350001,
           0.26700002,
-          0.500333369,
+          0.50033337,
           0.9933333,
-          1.03383327,
-          1.06716669,
-          1.13566661,
-          1.26666665,
-          1.50083339,
-          1.99166667,
+          1.0338333,
+          1.0671667,
+          1.1356666,
+          1.2666667,
+          1.5008334,
+          1.9916667,
           2.0325,
-          2.06633329,
-          2.13349986,
-          2.26633334,
-          2.49966669,
+          2.0663333,
+          2.1334999,
+          2.2663333,
+          2.4996667,
           3.0,
           4.0,
           5.001167,
@@ -12705,19 +12849,19 @@
           0.035,
           0.06666667,
           0.13350001,
-          0.266666681,
+          0.26666668,
           0.5005,
           0.9953334,
-          1.03383327,
-          1.06683338,
+          1.0338333,
+          1.0668334,
           1.1335,
           1.267,
           1.5,
-          1.99166667,
+          1.9916667,
           2.0335,
           2.0666666,
-          2.13333344,
-          2.26666665,
+          2.1333334,
+          2.2666667,
           2.5,
           3.0005,
           4.0,
@@ -12836,17 +12980,17 @@
           "Values": [
             2.95,
             1.25,
-            0.582999945,
+            0.58299994,
             0.592,
             0.173,
             0.119,
             0.768,
             0.847,
             1.0,
-            1.21999991,
+            1.2199999,
             1.21,
             1.2,
-            0.478000015,
+            0.47800002,
             0.457,
             0.364,
             0.304,
@@ -12873,20 +13017,20 @@
         "Values": [
           0.0335,
           0.06666667,
-          0.133166656,
-          0.266666681,
+          0.13316666,
+          0.26666668,
           0.5,
           0.9941667,
           1.0333333,
           1.0675,
           1.1335,
-          1.26916671,
-          1.49966669,
+          1.2691667,
+          1.4996667,
           1.9975,
-          2.03383327,
-          2.06716657,
-          2.13283324,
-          2.26666665,
+          2.0338333,
+          2.0671666,
+          2.1328332,
+          2.2666667,
           2.5,
           3.0,
           4.0,
@@ -13040,27 +13184,27 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.0675,
-          0.133666679,
-          0.267166674,
+          0.13366668,
+          0.26716667,
           0.5021666,
           0.9941667,
           1.0333333,
-          1.06933343,
-          1.13316667,
-          1.26633334,
+          1.0693334,
+          1.1331667,
+          1.2663333,
           1.5,
           1.993,
           2.0333333,
-          2.06683326,
-          2.13316655,
-          2.26716661,
-          2.50133348,
-          3.00199986,
+          2.0668333,
+          2.1331666,
+          2.2671666,
+          2.5013335,
+          3.0019999,
           4.0,
           5.0,
-          10.0166664
+          10.016666
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -13209,24 +13353,24 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0333333351,
+          0.033333335,
           0.06933333,
           0.134,
           0.26700002,
-          0.500333369,
+          0.50033337,
           0.992,
-          1.03383327,
-          1.06683338,
-          1.13316667,
+          1.0338333,
+          1.0668334,
+          1.1331667,
           1.267,
-          1.49966669,
-          1.99216664,
+          1.4996667,
+          1.9921666,
           2.0333333,
-          2.06766653,
-          2.13316655,
-          2.26833344,
+          2.0676665,
+          2.1331666,
+          2.2683334,
           2.5,
-          3.00366664,
+          3.0036666,
           4.0,
           5.0,
           10.0
@@ -13347,12 +13491,12 @@
             0.483,
             0.285,
             0.154,
-            0.518999934,
+            0.51899993,
             0.93,
             1.12,
             1.39,
             1.48,
-            1.79000008,
+            1.7900001,
             0.887,
             0.601,
             0.438,
@@ -13378,23 +13522,23 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0338333324,
+          0.033833332,
           0.06666667,
           0.134,
-          0.267833322,
+          0.26783332,
           0.5025,
           0.9945,
-          1.03466666,
+          1.0346667,
           1.066,
-          1.13266671,
+          1.1326667,
           1.2675,
-          1.49916661,
-          1.99633336,
+          1.4991666,
+          1.9963334,
           2.0333333,
-          2.06683326,
-          2.13283324,
-          2.26783347,
-          2.50166678,
+          2.0668333,
+          2.1328332,
+          2.2678335,
+          2.5016668,
           3.0,
           4.0125,
           5.0,
@@ -13518,7 +13662,7 @@
             0.136,
             0.697,
             0.821,
-            0.738999963,
+            0.73899996,
             1.49,
             1.44,
             1.69,
@@ -13547,22 +13691,22 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.0343333334,
+          0.034333333,
           0.06716667,
           0.13350001,
           0.26700002,
-          0.500333369,
+          0.50033337,
           0.9941667,
           1.0335,
-          1.06683338,
+          1.0668334,
           1.1335,
-          1.26666665,
+          1.2666667,
           1.5,
-          1.98883331,
+          1.9888333,
           2.0333333,
           2.066,
-          2.13333344,
-          2.26666665,
+          2.1333334,
+          2.2666667,
           2.5,
           3.0,
           4.0,
@@ -13685,15 +13829,15 @@
             0.119,
             0.0958,
             0.0716,
-            0.664000034,
+            0.66400003,
             0.829,
             0.84,
             0.985,
             0.984,
             1.09,
-            0.407000035,
+            0.40700004,
             0.343,
-            0.241000012,
+            0.24100001,
             0.206,
             0.112,
             0.101,
@@ -13718,22 +13862,22 @@
         "Values": [
           0.033,
           0.06633333,
-          0.133166656,
-          0.266666681,
+          0.13316666,
+          0.26666668,
           0.5,
-          0.992166638,
+          0.99216664,
           1.0335,
-          1.06666672,
+          1.0666667,
           1.1335,
-          1.26633334,
-          1.49966669,
-          1.99283338,
-          2.03383327,
-          2.06683326,
-          2.13316655,
-          2.26616669,
+          1.2663333,
+          1.4996667,
+          1.9928334,
+          2.0338333,
+          2.0668333,
+          2.1331666,
+          2.2661667,
           2.4995,
-          3.00133348,
+          3.0013335,
           4.016667,
           5.0,
           9.926333
@@ -13887,22 +14031,22 @@
         "Values": [
           0.0335,
           0.06716667,
-          0.135333329,
-          0.266666681,
+          0.13533333,
+          0.26666668,
           0.5005,
           0.9928333,
           1.0333333,
-          1.06716669,
+          1.0671667,
           1.1345,
-          1.26716661,
+          1.2671666,
           1.5,
           1.993,
           2.033,
-          2.06683326,
-          2.13366675,
+          2.0668333,
+          2.1336668,
           2.267,
-          2.50033331,
-          3.00116682,
+          2.5003333,
+          3.0011668,
           4.0,
           5.0,
           10.0
@@ -14040,11 +14184,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14178,12 +14322,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.000138888892,
-          0.000277777785,
-          0.000555555569,
-          0.000833333354,
-          0.00111111114,
-          0.00138888892
+          0.00013888889,
+          0.00027777778,
+          0.00055555557,
+          0.00083333335,
+          0.0011111111,
+          0.0013888889
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14316,11 +14460,11 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.000138888892,
-          0.000277777785,
-          0.000555555569,
-          0.00111111114,
-          0.00138888892
+          0.00013888889,
+          0.00027777778,
+          0.00055555557,
+          0.0011111111,
+          0.0013888889
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14434,7 +14578,7 @@
           "Values": [
             15.0,
             5.3,
-            1.79000008,
+            1.7900001,
             1.24,
             0.925,
             0.817
@@ -14455,11 +14599,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14594,11 +14738,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14712,7 +14856,7 @@
           "Values": [
             8.28,
             4.36,
-            1.63999987,
+            1.6399999,
             1.04,
             0.985,
             0.831
@@ -14733,11 +14877,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -14852,7 +14996,7 @@
             26.2,
             5.36,
             2.22,
-            1.63999987,
+            1.6399999,
             1.48,
             1.33
           ],
@@ -14872,11 +15016,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -15011,11 +15155,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -15150,11 +15294,11 @@
         },
         "Values": [
           0.008333334,
-          0.0166666675,
-          0.0333333351,
+          0.016666668,
+          0.033333335,
           0.05,
           0.06666667,
-          0.0833333358
+          0.083333336
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -15288,12 +15432,12 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.000138888892,
-          0.000277777785,
-          0.000555555569,
-          0.000833333354,
-          0.00111111114,
-          0.00138888892
+          0.00013888889,
+          0.00027777778,
+          0.00055555557,
+          0.00083333335,
+          0.0011111111,
+          0.0013888889
         ],
         "Dimension": "Time",
         "Unit": "h"
